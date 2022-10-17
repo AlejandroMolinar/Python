@@ -1,0 +1,16 @@
+from pyspark import SparkConf, SparkContext, SQLContext;
+from pyspark.sql.types import StringType;
+
+#===============================================================================
+# 
+#===============================================================================
+
+#df= pd.read_csv("C:/Users/Alejandro Molinar/Documents/Programming/Excel/base_datos_2008.csv", nrows = 1000);
+
+
+#findspark.init();
+
+confSpark= SparkConf().setMaster("local").setAppName("My_Program");
+sc= SparkContext(conf= confSpark); 
+
+sqlContex= SQLContext(sc);

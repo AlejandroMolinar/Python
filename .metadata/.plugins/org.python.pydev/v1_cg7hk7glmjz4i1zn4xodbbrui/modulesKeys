@@ -1,0 +1,133 @@
+MODULES_MANAGER_V3
+Image
+OpenGL
+_abc
+_ast
+_asyncio|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_asyncio.pyd
+_bisect
+_blake2
+_bytesio
+_bz2|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_bz2.pyd
+_codecs
+_codecs_cn
+_codecs_hk
+_codecs_iso2022
+_codecs_jp
+_codecs_kr
+_codecs_tw
+_collections
+_contextvars
+_csv
+_ctypes|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_ctypes.pyd
+_datetime
+_decimal|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_decimal.pyd
+_elementtree|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_elementtree.pyd
+_fileio
+_functools
+_hashlib|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_hashlib.pyd
+_heapq
+_hotshot
+_imp
+_io
+_json
+_locale
+_lsprof
+_lzma|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_lzma.pyd
+_md5
+_msi|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_msi.pyd
+_multibytecodec
+_multiprocessing|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_multiprocessing.pyd
+_opcode
+_operator
+_overlapped|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_overlapped.pyd
+_peg_parser
+_pickle
+_queue|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_queue.pyd
+_random
+_sha
+_sha1
+_sha256
+_sha3
+_sha512
+_signal
+_socket|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_socket.pyd
+_sqlite3|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_sqlite3.pyd
+_sre
+_ssl|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_ssl.pyd
+_stat
+_statistics
+_string
+_struct
+_subprocess
+_symtable
+_thread
+_tracemalloc
+_uuid|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_uuid.pyd
+_warnings
+_weakref
+_winapi
+_winreg
+_xxsubinterpreters
+_zoneinfo|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_zoneinfo.pyd
+array
+atexit
+audioop
+binascii
+builtins
+cPickle
+cStringIO
+cmath
+cv2
+datetime
+email
+errno
+exceptions
+faulthandler
+future_builtins
+gc
+gi
+hashlib
+imageop
+imp
+itertools
+marshal
+math
+mmap
+mock
+msvcrt
+multiprocessing
+mutagen
+nt
+numpy
+operator
+os
+os.path
+parser
+py
+pyexpat|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\pyexpat.pyd
+pytest
+python3|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\python3.dll
+python39|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\python39.dll
+random
+re
+scipy
+select|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\select.pyd
+signal
+six
+socket
+sqlite3|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\sqlite3.dll
+ssl
+strop
+sys
+thread
+time
+unicodedata|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\unicodedata.pyd
+vcruntime140|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\vcruntime140.dll
+vcruntime140_1|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\vcruntime140_1.dll
+winreg
+winsound|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\winsound.pyd
+wx
+wxPython
+xxsubtype
+zipimport
+zlib

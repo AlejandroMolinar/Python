@@ -1,0 +1,41 @@
+#import pandas as pd;
+#import numpy as np;
+
+import findspark;
+from pyspark import SparkConf, SparkContext, SQLContext;
+from pyspark.sql.types import StringType;
+
+#===============================================================================
+# 
+#===============================================================================
+
+#df= pd.read_csv("C:/Users/Alejandro Molinar/Documents/Programming/Excel/base_datos_2008.csv", nrows = 1000);
+
+
+#findspark.init();
+
+confSpark= SparkConf().setMaster("local").setAppName("My_Program");
+sc= SparkContext(conf= confSpark); 
+
+sqlContex= SQLContext(sc);
+
+#===============================================================================
+#     option()
+#    "header"       -->  Para especificar que la primera fila son los titulos de las columnas
+#    "inferSchema"  -->  Para que Spark intente determinar de que tipo es cada elemento de la tabla (String, int, float, etc..)
+#
+#===============================================================================
+
+dfspark= sqlContex.read.format("csv").option("header", "true").option("inferSchema", "true").load("C:/Users/Alejandro Molinar/Documents/Programming/Excel/base_datos_2008.csv",  rown = 1000);
+
+# print(dfspark.show());
+# print(dfspark.head());
+
+print(dfspark.count());
+
+#===============================================================================
+#    fraction        --> fraccion de la tabla
+#    withRemplace    --> No se puede reemplazar
+#===============================================================================
+
+dfspark= dfspark.sample(fraction= 0.5, withReplacement= False);

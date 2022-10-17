@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="1" failures="0" finished="true" name="Test Run: 20" tests="0" total_time="Finished in: 0.02 secs."/>
+    <test location="C:\Users\Alejandro Molinar\Documents\Programming\PythonP\Beginning\Graphics\User1.py" status="error" test="User1" time="0">
+        <stdout/>
+        <stderr>
+            <![CDATA[Traceback (most recent call last):
+  File "C:\Users\Alejandro Molinar\.p2\pool\plugins\org.python.pydev.core_9.0.1.202108191530\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users/Alejandro Molinar/Documents/Programming/PythonP/Beginning/Graphics\User1.py", line 89, in <module>
+    User(frame);
+  File "C:\Users/Alejandro Molinar/Documents/Programming/PythonP/Beginning/Graphics\User1.py", line 8, in __init__
+    userU= StringVar();
+NameError: name 'StringVar' is not defined
+ERROR: Module: User1 could not be imported (file: C:\Users\Alejandro Molinar\Documents\Programming\PythonP\Beginning\Graphics\User1.py).
+]]>
+        </stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Beginning User1.py (1)"/>
+]]>
+        </launch_memento>
+    </launch>
+</pydev-testsuite>

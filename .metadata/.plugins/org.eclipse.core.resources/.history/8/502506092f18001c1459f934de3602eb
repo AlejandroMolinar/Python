@@ -1,0 +1,41 @@
+from sklearn import tree;
+from sklearn.metrics import r2_score;
+import pandas as pd;
+import numpy as np;
+
+
+df= pd.read_csv("C:/Users/Alejandro Molinar/Documents/Programming/Excel/base_datos_2008.csv", nrows = 1000); 
+
+df= df.dropna(subset= ["ArrDelay"]);
+df= df.sample(frac=1);
+
+df= df.head(1000);
+df_test= df.tail(1000);
+
+#===============================================================================
+#    Parametros arboles de decision:
+#    Max_depth            --> Maximo de ramas especificadas
+#    min_samples_split    --> Estipular el caso minimo de Particiones por casos
+#    min_samples_leaf     --> Igual que el anterior
+#    max_features         --> Establecer el maximo de parametros ingresados al Arbol
+#===============================================================================
+
+clf= tree.DecisionTreeClassifier();                                                         
+
+X= df[["Distance", "ArrTime", "DepTime", "TaxiIn", "TaxiOut", "DepDelay"]];
+X_test= df_test[["Distance", "ArrTime", "DepTime", "TaxiIn", "TaxiOut", "DepDelay"]];
+
+Y= df["ArrDelay"] > 10;
+Y_test= df_test["ArrDelay"] > 10;
+
+clf= clf.fit(X, Y);
+Y_pred= clf.predict(X);
+Y_pred_test= clf.predict(X_test);
+
+print(np.mean(Y == Y_pred));
+print(np.mean(Y_test == Y_pred_test));
+
+#===============================================================================
+# 
+#===============================================================================
+

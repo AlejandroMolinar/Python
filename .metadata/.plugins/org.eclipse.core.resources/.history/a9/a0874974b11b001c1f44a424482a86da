@@ -1,0 +1,14 @@
+from pyspark import SparkConf, SparkContext, SQLContext;
+#from pyspark.sql.types import StringType;
+from pyspark.sql.functions import mean, stddev, col;
+#import numpy as np;
+
+#===============================================================================
+#
+#===============================================================================
+#findspark.init();
+
+confSpark= SparkConf().setMaster("local").setAppName("My_Program");
+sc= SparkContext(conf= confSpark); 
+
+sqlContex= SQLContext(sc);

@@ -1,0 +1,13 @@
+from sklearn.neighbors import KNeighborsClassifier;
+import pandas as pd;
+import numpy as np;
+
+
+df= pd.read_csv("C:/Users/Alejandro Molinar/Documents/Programming/Excel/base_datos_2008.csv", nrows = 1000); 
+
+newdf= df[["ArrTime", "Distance", "TaxiOut", "ArrDelay"]].dropna();
+#df= df.sample(frac=1);
+
+cols= newdf[newdf.columns[newdf.columns != "ArrDelay"]];
+
+filtro= df["ArrDelay"] > 10;

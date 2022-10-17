@@ -1,0 +1,22 @@
+from pyspark import SparkConf, SparkContext;
+
+conf= SparkConf().setMaster("local").setAppName("My_Program");
+
+sc= SparkContext(conf= conf);
+
+lines= sc.textFile("C:/Users/Alejandro Molinar/Documents/ejemplo.txt");
+
+result= lines.filter(lambda line: "nft" in line);    
+
+print(result.take(1));
+print(lines.first(1));
+
+
+#===============================================================================
+#     Crea un nuevo Lines con un 10% del contenido original, por el parapero "fraction".
+#     withRemplacement permine o bloquea el remplazo
+#===============================================================================
+
+#lines2= lines.sample(fraction= 0.1, withRemplacement= False);                                           
+
+#lines2.first();

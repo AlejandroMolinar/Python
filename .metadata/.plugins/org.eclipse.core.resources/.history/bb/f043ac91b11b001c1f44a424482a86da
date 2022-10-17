@@ -1,0 +1,11 @@
+from pyspark import SparkConf, SparkContext;
+
+#===============================================================================
+#
+#===============================================================================
+#findspark.init();
+
+confSpark= SparkConf().setMaster("local").setAppName("My_Program");
+sc= SparkContext(conf= confSpark); 
+
+sqlContex= SQLContext(sc);

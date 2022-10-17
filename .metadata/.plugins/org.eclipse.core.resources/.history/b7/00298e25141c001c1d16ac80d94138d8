@@ -1,0 +1,76 @@
+import findspark
+from pyspark import SparkConf, SparkContext, SQLContext;
+
+
+#from pyspark.sql.types import StringType;
+#import numpy as np;
+#===============================================================================
+#
+#===============================================================================
+findspark.init();
+
+confSpark= SparkConf().setMaster("local").setAppName("My_Program");
+sc= SparkContext(conf= confSpark); 
+
+lines= sc.textFile("C:/Users/Alejandro Molinar/Documents/ejemplo.txt");
+
+#===============================================================================
+# 
+#===============================================================================
+nf= sc.accumulator(0);
+dg= sc.accumulator(0);
+
+def coincidence(lines):
+    global nf, dg;
+    if "NFT" in lines:
+        nf += 1;
+        
+        if "digital" in lines:
+            dg += 1;
+            return True; 
+        
+        return True;
+    
+    if "digital" in lines:
+        dg += 1;
+        return True;    
+    
+    else:
+        
+        return False;
+    
+values= lines.filter(coincidence).collect();
+
+print(nf, "\n", dg);    
+    
+mapFunc= values.map(lambda x: (x,1));
+
+countValues= mapFunc.reduceByKey(lambda x,y: x+y); 
+
+#print(countValues.collect());
+
+countValues.sortBy(lambda x: x[1], ascending=False).show(5);
+
+
+def funcion(x):
+    if "NFT" in x and "digital" in x:
+        
+        return("Count"(x , 2));
+    
+    elif x[0] in ["DEN", "BOS"]:
+        
+        return((x , 3));
+    
+    else:
+        return ((x , 1));
+    
+mapFunc2= A.map(funcion);
+
+#print(mapFunc.collect());
+
+reduceFunc= mapFunc.reduceByKey(lambda x,y: x+y); 
+
+reduceFun2= mapFunc2.reduceByKey(lambda x,y: x+y); 
+    
+
+    

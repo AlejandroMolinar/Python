@@ -1,0 +1,145 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Alejandro Molinar\Documents\Programming\PythonP\.metadata\.plugins\com.python.pydev.analysis\python_v1_cg7hk7glmjz4i1zn4xodbbrui\v2_indexcache
+_codecs_kr|0|
+_heapq|0|
+select|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\select.pyd
+_codecs_cn|0|
+py|0|
+_sre|0|
+Image|0|
+_tracemalloc|0|
+ssl|0|
+python3|1624909020000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\python3.dll
+_xxsubinterpreters|0|
+zipimport|0|
+cv2|0|
+cPickle|0|
+_imp|0|
+errno|0|
+os.path|0|
+hashlib|0|
+mutagen|0|
+_symtable|0|
+xxsubtype|0|
+_winreg|0|
+_bytesio|0|
+_codecs_tw|0|
+_subprocess|0|
+_codecs_iso2022|0|
+re|0|
+cStringIO|0|
+winreg|0|
+_bz2|1624909016000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_bz2.pyd
+_peg_parser|0|
+_lsprof|0|
+math|0|
+_stat|0|
+_contextvars|0|
+_zoneinfo|1624909016000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_zoneinfo.pyd
+binascii|0|
+_blake2|0|
+numpy|0|
+cmath|0|
+strop|0|
+_hashlib|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_hashlib.pyd
+pyexpat|1624909020000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\pyexpat.pyd
+email|0|
+_opcode|0|
+_random|0|
+_ssl|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_ssl.pyd
+scipy|0|
+_codecs_jp|0|
+_signal|0|
+_multiprocessing|1624909016000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_multiprocessing.pyd
+_socket|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_socket.pyd
+_csv|0|
+_decimal|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_decimal.pyd
+builtins|0|
+_overlapped|1624909016000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_overlapped.pyd
+_string|0|
+_multibytecodec|0|
+python39|1624909020000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\python39.dll
+unicodedata|1624909020000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\unicodedata.pyd
+_thread|0|
+_locale|0|
+_bisect|0|
+_asyncio|1624909016000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_asyncio.pyd
+imageop|0|
+multiprocessing|0|
+_operator|0|
+operator|0|
+_abc|0|
+_hotshot|0|
+datetime|0|
+_md5|0|
+_datetime|0|
+_sha1|0|
+_codecs|0|
+_sha3|0|
+marshal|0|
+_queue|1624909016000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_queue.pyd
+_sha512|0|
+_sqlite3|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_sqlite3.pyd
+signal|0|
+audioop|0|
+_warnings|0|
+_winapi|0|
+_json|0|
+_weakref|0|
+vcruntime140_1|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\vcruntime140_1.dll
+_codecs_hk|0|
+exceptions|0|
+_struct|0|
+parser|0|
+_fileio|0|
+mock|0|
+_collections|0|
+vcruntime140|1624909020000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\vcruntime140.dll
+_sha|0|
+_io|0|
+sqlite3|1624909020000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\sqlite3.dll
+nt|0|
+atexit|0|
+sys|0|
+imp|0|
+itertools|0|
+random|0|
+_sha256|0|
+array|0|
+faulthandler|0|
+gc|0|
+msvcrt|0|
+wx|0|
+gi|0|
+six|0|
+os|0|
+pytest|0|
+OpenGL|0|
+wxPython|0|
+_msi|1624909016000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_msi.pyd
+_uuid|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_uuid.pyd
+thread|0|
+winsound|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\winsound.pyd
+_lzma|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_lzma.pyd
+_ctypes|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_ctypes.pyd
+_ast|0|
+zlib|0|
+_statistics|0|
+_functools|0|
+socket|0|
+time|0|
+_pickle|0|
+future_builtins|0|
+mmap|0|
+_elementtree|1624909018000000000|C:\Users\Alejandro Molinar\Documents\Programming\PythonFile\_elementtree.pyd
+-- END DISKCACHE
+-- START DICTIONARY
+0
+-- END DICTIONARY
+-- START TREE 1
+0
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

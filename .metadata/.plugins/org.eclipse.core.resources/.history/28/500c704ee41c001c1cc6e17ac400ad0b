@@ -1,0 +1,26 @@
+import pandas as pd;
+#import numpy as np;
+import matplotlib.pyplot as plt;
+
+#===============================================================================
+# 
+#        'Year',                 'Month',               'DayofMonth',         'DayOfWeek',         'DepTime',     
+#        'CRSDepTime',           'ArrTime',             'CRSArrTime',         'UniqueCarrier',     'FlightNum',         
+#        'TailNum',              'ActualElapsedTime',   'CRSElapsedTime',     'AirTime',            'ArrDelay',
+#        'DepDelay',             'Origin',              'Dest',               'Distance',           'TaxiIn', 
+#        'TaxiOut',              'Cancelled',           'CancellationCode',   'Diverted',           'CarrierDelay',
+#        'WeatherDelay',         'NASDelay',            'SecurityDelay',      'LateAircraftDelay'
+#
+#===============================================================================
+
+
+df= pd.read_csv("C:/Users/Alejandro Molinar/Documents/Programming/Excel/base_datos_2008.csv", nrows = 10000); 
+
+df= df.dropna(subset= ["Distance","ArrDelay"]);
+df= df.sample(frac=1).head(10000);
+
+df= df[df.ArrDelay > 120];
+df= df[df.Distance > 2000];
+
+
+

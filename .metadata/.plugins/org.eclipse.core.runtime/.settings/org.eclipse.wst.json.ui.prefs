@@ -1,0 +1,4 @@
+autoPropose=true
+eclipse.preferences.version=1
+insertSingleSuggestion=true
+suggestionStrategy=Lax

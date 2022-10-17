@@ -1,0 +1,37 @@
+from pyspark import SparkConf, SparkContext, SQLContext;
+
+
+#from pyspark.sql.types import StringType;
+#import numpy as np;
+#===============================================================================
+#     id|                    address|               categories|            city|country|        cuisines|          
+#    dateAdded|              dateUpdated|           keys|                  latitude|            longitude|         
+#    menuPageURL|            menus.amountMax|       menus.amountMin|       menus.category|      menus.currency|
+#    menus.dateSeen|         menus.description|     menus.name|            name|                ostalCode|  
+#    priceRangeCurrency|     priceRangeMin|         priceRangeMax|         province|            websites
+#    
+#===============================================================================
+
+confSpark= SparkConf().setMaster("local[2]").setAppName("TacosAndBurritos");
+sc= SparkContext(conf= confSpark); 
+
+sqlContex= SQLContext(sc);
+
+dfspark= sqlContex.read.format("csv").option("header", "true").option("inferSchema", "true").load("C:/Users/Alejandro Molinar/Documents/Programming/Excel/just tacos and burritos.csv");
+
+#===============================================================================
+#     Cleanning
+#===============================================================================
+
+df2= dfspark.na.drop(subset= ["cuisines"]);
+
+df2= df2.filter("cuisines is not NULL");
+df2= df2.dropDuplicates();
+
+df2= df2.select("id","address","categories","city","country","cuisines");
+
+result= df2.groupBy("cuisines").count().show();
+
+print(result);
+
+    

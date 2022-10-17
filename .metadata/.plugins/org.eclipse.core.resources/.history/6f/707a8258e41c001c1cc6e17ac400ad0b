@@ -1,0 +1,38 @@
+import matplotlib.pyplot as plt;
+import pandas as pd;
+
+
+#import numpy as np;
+#===============================================================================
+# 
+#        'Year',                 'Month',               'DayofMonth',         'DayOfWeek',         'DepTime',     
+#        'CRSDepTime',           'ArrTime',             'CRSArrTime',         'UniqueCarrier',     'FlightNum',         
+#        'TailNum',              'ActualElapsedTime',   'CRSElapsedTime',     'AirTime',            'ArrDelay',
+#        'DepDelay',             'Origin',              'Dest',               'Distance',           'TaxiIn', 
+#        'TaxiOut',              'Cancelled',           'CancellationCode',   'Diverted',           'CarrierDelay',
+#        'WeatherDelay',         'NASDelay',            'SecurityDelay',      'LateAircraftDelay'
+#
+#===============================================================================
+df= pd.read_csv("C:/Users/Alejandro Molinar/Documents/Programming/Excel/base_datos_2008.csv", nrows = 10000); 
+
+df= df.dropna(subset= ["Distance","ArrDelay"]);
+df= df.sample(frac=1).head(10000);
+
+df= df[df.ArrDelay > 120];
+df= df[df.Distance > 2000];
+
+k_means= KMeans(n_clusters=4, random_state=1, n_jobs= -1).fit(df2);                                             # 'n_clusters' especiica los cluster a utilizar 
+                                                                                                                # 'random_state' se utiliza para que siempre se obtenga el mismo resultado
+                                                                                                                # 'n_jobs' establece el numero de procesadores                                                 
+print(k_means.labels_)                                                                                          # Muestra los cluster
+
+print(np.unique(k_means.labels_, return_counts=True));
+
+plt.scatter(df2["ArrTime"], df2["DepDelay"], c=k_means.labels_);
+plt.show();
+
+print(k_means.cluster_centers_);
+"""
+
+
+

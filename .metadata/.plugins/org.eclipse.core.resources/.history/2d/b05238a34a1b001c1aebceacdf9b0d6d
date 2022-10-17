@@ -1,0 +1,13 @@
+from pyspark import SparkConf, SparkContext, SQLContext;
+from pyspark.sql.types import StringType;
+
+#===============================================================================
+# 
+#===============================================================================
+
+#findspark.init();
+
+confSpark= SparkConf().setMaster("local").setAppName("My_Program");
+sc= SparkContext(conf= confSpark); 
+
+sqlContex= SQLContext(sc);

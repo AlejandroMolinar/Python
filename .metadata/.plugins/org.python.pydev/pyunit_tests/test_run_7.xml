@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+    <summary errors="1" failures="0" finished="true" name="Test Run: 23" tests="0" total_time="Finished in: 0.00 secs."/>
+    <test location="C:\Users\Alejandro Molinar\Documents\Programming\PythonP\Beginning\Proof1\Poo_First.py" status="error" test="Poo_First" time="0">
+        <stdout/>
+        <stderr>
+            <![CDATA[Traceback (most recent call last):
+  File "C:\Users\Alejandro Molinar\.p2\pool\plugins\org.python.pydev.core_8.3.0.202104101217\pysrc\_pydev_runfiles\pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "C:\Users/Alejandro Molinar/Documents/Programming/PythonP/Beginning/Proof1\Poo_First.py", line 66, in <module>
+    moto=Moto().toString();
+TypeError: __init__() missing 2 required positional arguments: 'brand' and 'model'
+ERROR: Module: Poo_First could not be imported (file: C:\Users\Alejandro Molinar\Documents\Programming\PythonP\Beginning\Proof1\Poo_First.py).
+]]>
+        </stderr>
+    </test>
+    <launch mode="run">
+        <launch_memento>
+            <![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="Beginning Poo_First.py (2)"/>
+]]>
+        </launch_memento>
+    </launch>
+</pydev-testsuite>

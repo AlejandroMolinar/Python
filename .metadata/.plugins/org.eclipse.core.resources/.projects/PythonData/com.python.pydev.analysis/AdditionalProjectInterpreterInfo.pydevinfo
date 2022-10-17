@@ -1,0 +1,139 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Alejandro Molinar\Documents\Programming\PythonP\.metadata\.plugins\org.eclipse.core.resources\.projects\PythonData\com.python.pydev.analysis\v2_indexcache
+StartData.Clustering.ArbolClasificacion|1631936352290015000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\ArbolClasificacion.py
+StartData.Clustering.NaivesBayer1|1631850511793574000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\NaivesBayer1.py
+StartData.Graphics.TempGraphics|1631630880618416000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Graphics\TempGraphics.py
+StartData.Clustering.RegresionLogistica|1631849100661758000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\RegresionLogistica.py
+StartData.Spark.MapReduceSpk|1632364639939951000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\MapReduceSpk.py
+StartData.Graphics.MatplotlibGra2|1631635560134027000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Graphics\MatplotlibGra2.py
+StartData.Clustering.Correlation|1631718321788689000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\Correlation.py
+StartData.Spark.OpNumberSpk|1632320869370330000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\OpNumberSpk.py
+StartData.PandasNumpy.TableCor|1631502322551825000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\TableCor.py
+StartData.Clustering.RandomForest|1631936376091015000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\RandomForest.py
+StartData.Graphics.Matplotlib1|1631549034569982000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Graphics\Matplotlib1.py
+StartData.Clustering.VectorMachine|1631936938887013000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\VectorMachine.py
+StartData.Spark.PySpark1|1632195159795334000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\PySpark1.py
+StartData.Spark.joinsTablesSpk|1632322830177897000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\joinsTablesSpk.py
+StartData.Clustering.Clustering1|1631761051811091000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\Clustering1.py
+StartData.Spark.TransformationSpk|1632279834851163000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\TransformationSpk.py
+StartData.Spark.PySparck_CSV|1632239126649727000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\PySparck_CSV.py
+StartData.Challenge.TacosAndBurritos|1632411800153303000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Challenge\TacosAndBurritos.py
+StartData.PandasNumpy.NumpyLib|1631326353088042000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\NumpyLib.py
+StartData.PandasNumpy.CorrelationX2|1631417939212015000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\CorrelationX2.py
+StartData.Spark.MapSpk|1632362576610243000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\MapSpk.py
+StartData.PandasNumpy.AddTables|1631503786926343000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\AddTables.py
+StartData.PandasNumpy.PandasLib|1631286752110325000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\PandasLib.py
+StartData.Clustering.RegresionLineal|1631936501360014000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\RegresionLineal.py
+StartData.Clustering.KNN1|1631978037025274000|C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\KNN1.py
+-- END DISKCACHE
+-- START DICTIONARY
+50
+7=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\RegresionLogistica.py
+25=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\KNN1.py
+4=StartData.Clustering.ArbolClasificacion
+42=StartData.Graphics.TempGraphics
+8=StartData.Clustering.RegresionLogistica
+24=StartData.Spark.MapReduceSpk
+33=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\OpNumberSpk.py
+46=StartData.Clustering.Correlation
+6=StartData.Clustering.RandomForest
+21=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\joinsTablesSpk.py
+38=StartData.Graphics.Matplotlib1
+12=StartData.Clustering.VectorMachine
+17=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\Clustering1.py
+28=StartData.Spark.TransformationSpk
+32=StartData.Spark.PySparck_CSV
+20=StartData.Challenge.TacosAndBurritos
+15=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\TableCor.py
+3=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\ArbolClasificacion.py
+44=StartData.PandasNumpy.CorrelationX2
+30=StartData.PandasNumpy.AddTables
+35=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\PySpark1.py
+37=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Graphics\Matplotlib1.py
+19=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Challenge\TacosAndBurritos.py
+41=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Graphics\TempGraphics.py
+10=StartData.Clustering.NaivesBayer1
+49=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\NumpyLib.py
+40=StartData.Graphics.MatplotlibGra2
+39=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Graphics\MatplotlibGra2.py
+45=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\Correlation.py
+34=StartData.Spark.OpNumberSpk
+1=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\MapSpk.py
+16=StartData.PandasNumpy.TableCor
+43=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\CorrelationX2.py
+22=StartData.Spark.joinsTablesSpk
+36=StartData.Spark.PySpark1
+18=StartData.Clustering.Clustering1
+5=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\RandomForest.py
+23=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\MapReduceSpk.py
+50=StartData.PandasNumpy.NumpyLib
+27=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\TransformationSpk.py
+11=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\VectorMachine.py
+47=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\PandasLib.py
+13=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\RegresionLineal.py
+31=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Spark\PySparck_CSV.py
+2=StartData.Spark.MapSpk
+48=StartData.PandasNumpy.PandasLib
+14=StartData.Clustering.RegresionLineal
+29=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\PandasNumpy\AddTables.py
+9=C:\Users\Alejandro Molinar\Documents\Programming\PythonP\PythonData\StartData\Clustering\NaivesBayer1.py
+26=StartData.Clustering.KNN1
+-- END DICTIONARY
+-- START TREE 1
+51
+A|1|A!1^30#1*19@
+X|6|X!3^25#1*35@X!5^25#1*51@X!7^12#1*67@X!9^18#1*83@X!11^22#1*99@X!13^25#1*115@
+Y|6|Y!7^11#1*67@Y!3^41#1*35@Y!9^11#1*83@Y!11^25#1*99@Y!13^24#1*115@Y!5^28#1*51@
+buy|2|buyer!15^16#1*131@buy!15^22#1*131@
+clf|4|clf!3^23#1*35@clf!5^23#1*51@clf!9^22#1*83@clf!11^28#1*99@
+cls|1|clstr!17^50#1*147@
+coc|1|cocine!19^36#1*163@
+coi|2|coincidence!21^37#5*178@coincidence!23^23#5*194@
+col|1|cols!25^13#1*211@
+con|13|confSpark!27^17#1*227@con_df!29^12#1*243@confusionMatrix!7^25#1*67@confSpark!31^17#1*259@confSpark!1^12#1*19@confSpark!19^17#1*163@consumidores!29^8#1*243@confSpark!21^8#1*179@confusionMatrix!25^48#1*211@con_labels!29^9#1*243@confSpark!33^11#1*275@confSpark!35^6#1*291@confSpark!23^12#1*195@
+cou|1|countValues!23^51#1*195@
+dat|3|data!37^71#1*307@data!39^48#1*323@data!15^10#1*131@
+df|15|df!9^6#1*83@df!11^6#1*99@df!41^9#1*339@df!43^8#1*355@df!3^7#1*35@df!25^8#1*211@df!13^20#1*115@df!17^8#1*147@df!5^7#1*51@df!39^6#1*323@df!7^7#1*67@df!37^6#1*307@df!45^5#1*371@df!47^3#1*387@df!15^14#1*131@
+df2|8|df2!27^30#1*227@df2!39^44#1*323@df2!41^70#1*339@df2!17^9#1*147@df2!33^24#1*275@df2!31^51#1*259@df2!1^25#1*19@df2!19^28#1*163@
+df_|3|df_test!3^13#1*35@df_test!5^13#1*51@df_test!11^12#1*99@
+dfs|5|dfspark!19^22#1*163@dfspark!31^29#1*259@dfspark!27^22#1*227@dfspark!1^17#1*19@dfspark!33^16#1*275@
+dg|2|dg!21^35#1*179@dg!23^21#1*195@
+dum|1|dummies!13^51#1*115@
+exp|2|expected!43^34#1*355@expectedBest!43^36#1*355@
+fil|1|filtro!25^15#1*211@
+fun|2|funcion!1^42#5*18@funcion!23^58#5*194@
+hmd|1|HMdf!39^46#1*323@
+lab|2|labs!37^72#1*307@labels!15^12#1*131@
+lin|3|lines!35^10#1*291@lines!21^32#1*179@lines!23^15#1*195@
+lis|1|list!33^35#1*275@
+log|1|logr!7^15#1*67@
+map|4|mapFunc2!1^54#1*19@mapFunc!1^37#1*19@mapFun!23^74#1*195@mapFunc!23^49#1*195@
+mea|2|meanSpk!27^40#1*227@mean!33^40#1*275@
+med|1|media!31^64#1*259@
+nbr|2|nbrs_1!25^39#1*211@nbrs_3!25^26#1*211@
+new|1|newdf!25^10#1*211@
+nf|2|nf!21^34#1*179@nf!23^20#1*195@
+obs|2|observator!43^22#1*355@observatorBest!43^37#1*355@
+plt|1|plts!37^74#1*307@
+pre|2|predict1!25^42#1*211@predict3!25^30#1*211@
+pro|4|productores!29^19#1*243@product!15^19#1*131@prod_labels!29^20#1*243@prod_di!29^22#1*243@
+red|3|reduceFunc!1^58#1*19@reduceFunc!23^78#1*195@reduceFun2!1^60#1*19@
+reg|1|regr!13^58#1*115@
+res|2|result2!35^26#1*291@restaurant!19^39#1*163@
+sc|8|sc!31^18#1*259@sc!19^18#1*163@sc!35^8#1*291@sc!21^9#1*179@sc!33^12#1*275@sc!1^13#1*19@sc!27^18#1*227@sc!23^13#1*195@
+sql|5|sqlContex!27^20#1*227@sqlContex!31^20#1*259@sqlContex!1^15#1*19@sqlContex!19^20#1*163@sqlContex!33^14#1*275@
+std|1|std!33^41#1*275@
+tab|1|TableJoin!29^30#1*243@
+tes|1|test!43^32#1*355@
+tip|1|TipCocine!19^35#1*163@
+val|5|values!21^56#1*179@values!23^42#1*195@valoration!49^6#1*403@valorationXYZ!49^8#1*403@valoration2!49^51#1*403@
+x|1|x!21^15#1*179@
+x_t|3|X_test!11^23#1*99@X_test!3^26#1*35@X_test!5^26#1*51@
+y|1|y!21^16#1*179@
+y_p|8|Y_pred!11^31#1*99@Y_pred!3^45#1*35@Y_pred_test!3^46#1*35@Y_pred!7^18#1*67@Y_pred!9^26#1*83@Y_pred_test!5^33#1*51@Y_pred!5^32#1*51@Y_pred!13^63#1*115@
+y_t|3|Y_test!11^26#1*99@Y_test!3^42#1*35@Y_test!5^29#1*51@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

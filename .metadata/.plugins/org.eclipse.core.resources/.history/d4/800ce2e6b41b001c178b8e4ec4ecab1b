@@ -1,0 +1,36 @@
+from pyspark import SparkConf, SparkContext;
+
+#===============================================================================
+#
+#===============================================================================
+#findspark.init();
+
+confSpark= SparkConf().setMaster("local").setAppName("My_Program");
+sc= SparkContext(conf= confSpark); 
+
+#===============================================================================
+# 
+#===============================================================================
+
+x= sc.parallelize([("a", 5), ("c", 9), ("b", 2), ("d", 6)]);    
+y= sc.parallelize([("a", 1), ("d", 7), ("a", 0)]);    
+
+x.join(y).collect();
+y.join(x).collect();
+
+x.leftOuterJoin(y).collect();
+y.leftOuterJoin(x).collect();
+
+x.rightOuterJoin(y).collect();
+y.rightOuterJoin(x).collect();
+
+#===============================================================================
+#    Acumuladores
+#===============================================================================
+lines= sc.textFile("C:/Users/Alejandro Molinar/Documents/ejemplo.txt");
+
+py= sc.accumulator(0);
+sp= sc.accumulator(0);
+
+def coincidence(lines):
+    if("")
